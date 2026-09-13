@@ -1,0 +1,106 @@
+{
+  "overall_score": 100.0,
+  "max_score": 100.0,
+  "overall_percentage": 100.0,
+  "dimensions": [
+    {
+      "name": "Entity Accuracy",
+      "score": 20.0,
+      "max_score": 20.0,
+      "percentage": 100.0,
+      "explanation": "Preserved 16 of 16 key case entities correctly.",
+      "issues": [],
+      "supporting_checks": [
+        "case_identity",
+        "deponent_identity",
+        "advocate_information",
+        "date_place_consistency"
+      ]
+    },
+    {
+      "name": "Completeness",
+      "score": 15.0,
+      "max_score": 15.0,
+      "percentage": 100.0,
+      "explanation": "Covered 8 of 8 mandatory case points and elements.",
+      "issues": [],
+      "supporting_checks": [
+        "exhibit_consistency",
+        "prayer_separation",
+        "advocate_information"
+      ]
+    },
+    {
+      "name": "Structure",
+      "score": 15.0,
+      "max_score": 15.0,
+      "percentage": 100.0,
+      "explanation": "Passed 6 of 6 structural requirements.",
+      "issues": [],
+      "supporting_checks": [
+        "required_sections",
+        "section_order",
+        "body_paragraph_count",
+        "continuous_numbering",
+        "prayer_separation",
+        "verification_range"
+      ]
+    },
+    {
+      "name": "Consistency",
+      "score": 15.0,
+      "max_score": 15.0,
+      "percentage": 100.0,
+      "explanation": "Passed 5 of 5 internal consistency checks.",
+      "issues": [],
+      "supporting_checks": [
+        "respondent_number_consistency",
+        "deponent_identity",
+        "verb_agreement",
+        "date_place_consistency",
+        "case_identity"
+      ]
+    },
+    {
+      "name": "Template Fidelity",
+      "score": 20.0,
+      "max_score": 20.0,
+      "percentage": 100.0,
+      "explanation": "Adheres to 8 of 8 template rules and legal conventions.",
+      "issues": [],
+      "supporting_checks": [
+        "required_sections",
+        "section_order",
+        "respondent_in_title",
+        "deponent_clause_form",
+        "continuous_numbering",
+        "prayer_separation",
+        "verification_range",
+        "verb_agreement"
+      ]
+    },
+    {
+      "name": "Hallucination",
+      "score": 15.0,
+      "max_score": 15.0,
+      "percentage": 100.0,
+      "explanation": "Passed 2 of 2 deterministic hallucination & factual whitelist checks.",
+      "issues": [],
+      "supporting_checks": [
+        "sample_data_leakage",
+        "unsupported_content_check"
+      ]
+    }
+  ],
+  "issues": [],
+  "methodology": {
+    "Entity Accuracy": 20.0,
+    "Completeness": 15.0,
+    "Structure": 15.0,
+    "Consistency": 15.0,
+    "Template Fidelity": 20.0,
+    "Hallucination": 15.0
+  },
+  "summary": "Document achieved an overall score of 100.0/100.0 (100.0%). 0 issue(s) detected across 6 evaluation dimensions.",
+  "limitations": "Deterministic checks can identify known classes of errors (such as sample fact leakage, mismatched entity names, altered paragraph numbering, and known unsupported phrases), but cannot mathematically prove that a document contains zero subtle semantic distortions. The system evaluates document fidelity to the supplied source material and template; it does not provide legal advice or independently verify legal validity under Indian law."
+}

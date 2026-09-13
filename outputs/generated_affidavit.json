@@ -1,0 +1,98 @@
+{
+  "forum_heading": "IN THE HIGH COURT OF JUDICATURE AT BOMBAY",
+  "jurisdiction": "ORDINARY ORIGINAL CIVIL JURISDICTION",
+  "case_number_line": "WRIT PETITION NO. 1847 OF 2026",
+  "cause_title": {
+    "petitioner": {
+      "party_type": "Petitioner",
+      "number": null,
+      "name": "Sunrise Housing Private Limited",
+      "details": null,
+      "status_tag": "...Petitioner"
+    },
+    "versus_text": "VERSUS",
+    "respondents": [
+      {
+        "party_type": "Respondent",
+        "number": 1,
+        "name": "1. State of Maharashtra",
+        "details": null,
+        "status_tag": "...Respondent No.1"
+      },
+      {
+        "party_type": "Respondent",
+        "number": 2,
+        "name": "2. Mumbai Metropolitan Region Development Authority",
+        "details": null,
+        "status_tag": "...Respondent No.2"
+      }
+    ]
+  },
+  "affidavit_title": "AFFIDAVIT IN REPLY ON BEHALF OF RESPONDENT NO. 2",
+  "deponent_clause": "I, Arvind Rajan, Deputy Metropolitan Commissioner of the Mumbai Metropolitan Region Development Authority, having office at Bandra East, Mumbai, Maharashtra, the Respondent No. 2 above named, do hereby solemnly affirm and state as under:",
+  "body_paragraphs": [
+    {
+      "paragraph_number": 1,
+      "move_type": "IDENTITY_AND_PERUSAL",
+      "text": "I say that I am the Deputy Metropolitan Commissioner of the Respondent No. 2 in the above Writ Petition and am well acquainted with the facts and circumstances of the case. I have perused a copy of the Writ Petition filed by the Petitioner, Sunrise Housing Private Limited. I am filing this Affidavit in Reply on behalf of Respondent No. 2, Mumbai Metropolitan Region Development Authority, to oppose the contentions raised in the Writ Petition and the reliefs sought by the Petitioner."
+    },
+    {
+      "paragraph_number": 2,
+      "move_type": "BLANKET_DENIAL",
+      "text": "At the outset, Respondent No. 2 denies all statements, contentions and averments made in the Writ Petition except those specifically admitted in this Affidavit in Reply. Nothing contained in the Writ Petition that has not been specifically dealt with or admitted is to be treated as an admission by Respondent No. 2."
+    },
+    {
+      "paragraph_number": 3,
+      "move_type": "PRELIMINARY_POSITION",
+      "text": "I say that the Writ Petition is misconceived and devoid of merits. The actions challenged by the Petitioner were taken in accordance with the applicable redevelopment procedure and within the authority available to Respondent No. 2."
+    },
+    {
+      "paragraph_number": 4,
+      "move_type": "SUBSTANTIVE_ANSWER",
+      "text": "I say that the Respondent No. 2 denies the allegation that the impugned communication dated 15 July 2026 was issued without authority. The Respondent No. 2 states that the said communication was issued with full authority and in accordance with the powers vested in the Respondent No. 2. The Respondent No. 2 therefore denies that the said communication is bad in law or liable to be set aside on the ground of lack of authority."
+    },
+    {
+      "paragraph_number": 5,
+      "move_type": "SUBSTANTIVE_ANSWER",
+      "text": "I say that the communication dated 15 July 2026 was issued pursuant to the applicable redevelopment procedure and after due consideration of the relevant records pertaining to the subject matter. The Respondent No. 2 states that the said communication was issued in conformity with the prescribed procedure and after examining all material facts and documents available on record at the time of issuance."
+    },
+    {
+      "paragraph_number": 6,
+      "move_type": "SUBSTANTIVE_ANSWER",
+      "text": "I say that the Respondent No. 2 relies upon the communication dated 15 July 2026. A true copy of the said communication is annexed hereto and marked as EXHIBIT-‘A’."
+    },
+    {
+      "paragraph_number": 7,
+      "move_type": "CLOSING",
+      "text": "In the premises aforesaid, I say that the Writ Petition deserves to be dismissed with costs."
+    }
+  ],
+  "prayer": {
+    "heading": "PRAYER",
+    "intro_text": "I therefore respectfully pray that this Hon'ble Court may be pleased to:",
+    "items": [
+      {
+        "letter": "(a)",
+        "text": "dismiss the present Writ Petition with costs."
+      }
+    ]
+  },
+  "jurat": {
+    "place_line": "Solemnly affirmed at Mumbai",
+    "date_line": "On this 5th day of September 2026",
+    "before_me": "Before Me",
+    "deponent_tag": "DEPONENT"
+  },
+  "verification": {
+    "heading": "VERIFICATION",
+    "deponent_name": "Arvind Rajan",
+    "verified_range_statement": "paragraphs 1 to 7 and the Prayer above",
+    "full_text": "I, Arvind Rajan, the Deponent above named, do hereby verify that the contents of paragraphs 1 to 7 and the Prayer above are true and correct to my knowledge and belief and that nothing material has been concealed therefrom.",
+    "verified_at_line": "Verified at Mumbai on this 5th day of September 2026.",
+    "deponent_tag": "DEPONENT"
+  },
+  "advocate_block": {
+    "firm_name": "Rajan & Associates",
+    "acting_for": "Advocates for the Respondent No. 2"
+  }
+}

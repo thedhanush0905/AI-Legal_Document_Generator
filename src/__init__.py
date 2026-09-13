@@ -1,0 +1,3 @@
+"""
+Affidavit AI Agent package.
+"""

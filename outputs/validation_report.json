@@ -1,0 +1,187 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check_name": "required_sections",
+      "severity": "error",
+      "passed": true,
+      "message": "All required sections are present",
+      "expected": "['Forum heading', 'Jurisdiction', 'Case number', 'Cause title', 'Affidavit title', 'Deponent clause', 'Numbered reply paragraphs', 'Prayer', 'Jurat', 'Verification', 'Advocate block']",
+      "actual": "All present",
+      "source": "TemplateSpecification.sections"
+    },
+    {
+      "check_name": "section_order",
+      "severity": "error",
+      "passed": true,
+      "message": "Section order adheres strictly to TemplateSpecification (1 through 11)",
+      "expected": "Forum -> Jurisdiction -> Case Number -> Cause Title -> Affidavit Title -> Deponent Clause -> Body -> Prayer -> Jurat -> Verification -> Advocate Block",
+      "actual": "Forum -> Jurisdiction -> Case Number -> Cause Title -> Affidavit Title -> Deponent Clause -> Body -> Prayer -> Jurat -> Verification -> Advocate Block",
+      "source": "TemplateSpecification.section_order"
+    },
+    {
+      "check_name": "case_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Case identity matches CaseData exactly",
+      "expected": "IN THE HIGH COURT OF JUDICATURE AT BOMBAY, 1847/2026, Sunrise Housing Private Limited",
+      "actual": "IN THE HIGH COURT OF JUDICATURE AT BOMBAY, WRIT PETITION NO. 1847 OF 2026, Sunrise Housing Private Limited",
+      "source": "CaseData"
+    },
+    {
+      "check_name": "respondent_number_consistency",
+      "severity": "error",
+      "passed": true,
+      "message": "Consistent reference to 'RESPONDENT NO. 2' across title, deponent clause, and advocate block",
+      "expected": "RESPONDENT NO. 2",
+      "actual": "AFFIDAVIT IN REPLY ON BEHALF OF RESPONDENT NO. 2",
+      "source": "CriticalRules.respondent_consistency"
+    },
+    {
+      "check_name": "deponent_identity",
+      "severity": "error",
+      "passed": true,
+      "message": "Deponent identified with name, designation, organisation, and proper officer form",
+      "expected": "Arvind Rajan, Deputy Metropolitan Commissioner, Mumbai Metropolitan Region Development Authority",
+      "actual": "I, Arvind Rajan, Deputy Metropolitan Commissioner of the Mumbai Metropolitan Region Development Authority, having office at Bandra East, Mumbai, Maharashtra, the Respondent No. 2 above named, do hereby solemnly affirm and state as under:",
+      "source": "CriticalRules.deponent_clause_form"
+    },
+    {
+      "check_name": "body_paragraph_count",
+      "severity": "error",
+      "passed": true,
+      "message": "Body paragraph count is exactly 7",
+      "expected": "7",
+      "actual": "7",
+      "source": "TemplateSpecification.paragraph_rules"
+    },
+    {
+      "check_name": "continuous_numbering",
+      "severity": "error",
+      "passed": true,
+      "message": "Continuous numbering verified: [1, 2, 3, 4, 5, 6, 7]",
+      "expected": "[1, 2, 3, 4, 5, 6, 7]",
+      "actual": "[1, 2, 3, 4, 5, 6, 7]",
+      "source": "CriticalRules.continuous_numbering"
+    },
+    {
+      "check_name": "verification_range",
+      "severity": "error",
+      "passed": true,
+      "message": "Verification range accurately specifies 'paragraphs 1 to 7'",
+      "expected": "paragraphs 1 to 7",
+      "actual": "paragraphs 1 to 7 and the Prayer above",
+      "source": "CriticalRules.verification_range_exact_match"
+    },
+    {
+      "check_name": "verb_agreement",
+      "severity": "error",
+      "passed": true,
+      "message": "Verification verb corresponds to jurat attestation",
+      "expected": "Verb matching 'solemnly affirm'",
+      "actual": "Solemnly affirmed at Mumbai",
+      "source": "CriticalRules.verb_agreement"
+    },
+    {
+      "check_name": "date_place_consistency",
+      "severity": "error",
+      "passed": true,
+      "message": "Date and place consistent across Jurat and Verification",
+      "expected": "Mumbai, 5 September 2026",
+      "actual": "Jurat: Solemnly affirmed at Mumbai, On this 5th day of September 2026 | Ver: Verified at Mumbai on this 5th day of September 2026.",
+      "source": "TemplateSpecification.jurat_rules"
+    },
+    {
+      "check_name": "prayer_separation",
+      "severity": "error",
+      "passed": true,
+      "message": "Prayer items are lettered and separate from body paragraphs",
+      "expected": "Lettered prayer (a) separate from body numbering",
+      "actual": "Prayer heading: PRAYER, items: ['(a)']",
+      "source": "CriticalRules.prayer_not_numbered_with_body"
+    },
+    {
+      "check_name": "exhibit_consistency",
+      "severity": "error",
+      "passed": true,
+      "message": "Communication dated 15 July 2026 and EXHIBIT-‘A’ properly referenced",
+      "expected": "EXHIBIT-‘A’ and 15 July 2026",
+      "actual": "Present",
+      "source": "CaseData.reply_points (Point 6)"
+    },
+    {
+      "check_name": "advocate_information",
+      "severity": "error",
+      "passed": true,
+      "message": "Advocate firm name and party representation match CaseData",
+      "expected": "Rajan & Associates (Respondent No. 2)",
+      "actual": "Rajan & Associates (Advocates for the Respondent No. 2)",
+      "source": "CaseData.advocate"
+    },
+    {
+      "check_name": "sample_data_leakage",
+      "severity": "error",
+      "passed": true,
+      "message": "No sample reference entities leaked into affidavit",
+      "expected": "None of: Arjun Mehta, Rohan Deshpande, 3147",
+      "actual": "None",
+      "source": "SampleDataLeakageGuard"
+    },
+    {
+      "check_name": "unsupported_content_check",
+      "severity": "error",
+      "passed": true,
+      "message": "No unsupplied legal rights or claims detected",
+      "expected": "Strict adherence to CaseData factual points",
+      "actual": "Clean",
+      "source": "CaseDataContentWhitelist"
+    },
+    {
+      "check_name": "docx_content_presence",
+      "severity": "error",
+      "passed": true,
+      "message": "All critical case entities present in DOCX",
+      "expected": "All critical entities",
+      "actual": "Present",
+      "source": "DOCXContentInspection"
+    },
+    {
+      "check_name": "docx_body_paragraphs",
+      "severity": "error",
+      "passed": true,
+      "message": "Rendered 7 body paragraphs without placeholders",
+      "expected": "7 paragraphs, no placeholders",
+      "actual": "7 paragraphs, placeholders=[]",
+      "source": "DOCXBodyInspection"
+    },
+    {
+      "check_name": "docx_headings_formatting",
+      "severity": "error",
+      "passed": true,
+      "message": "Major headings are bold and centered in DOCX",
+      "expected": "Centered and Bold",
+      "actual": "Centered and Bold",
+      "source": "TemplateSpecification.formatting_rules"
+    },
+    {
+      "check_name": "docx_body_formatting",
+      "severity": "error",
+      "passed": true,
+      "message": "Body paragraphs are justified with bold numbers in DOCX",
+      "expected": "Justified alignment, bold initial run",
+      "actual": "Valid",
+      "source": "TemplateSpecification.formatting_rules"
+    },
+    {
+      "check_name": "docx_deponent_signatures",
+      "severity": "error",
+      "passed": true,
+      "message": "DEPONENT signature tags are uppercase and right-aligned",
+      "expected": "At least 2 right-aligned uppercase DEPONENT tags",
+      "actual": "2 tags found",
+      "source": "TemplateSpecification.formatting_rules"
+    }
+  ],
+  "issues": [],
+  "summary": "20 of 20 validation checks passed."
+}

@@ -1,0 +1,79 @@
+{
+  "court": "IN THE HIGH COURT OF JUDICATURE AT BOMBAY",
+  "jurisdiction": "ORDINARY ORIGINAL CIVIL JURISDICTION",
+  "proceeding": "WRIT PETITION",
+  "case_number": "1847",
+  "year": "2026",
+  "petitioner": "Sunrise Housing Private Limited",
+  "respondents": [
+    {
+      "respondent_number": 1,
+      "name": "State of Maharashtra"
+    },
+    {
+      "respondent_number": 2,
+      "name": "Mumbai Metropolitan Region Development Authority"
+    }
+  ],
+  "respondent_number": "Respondent No. 2",
+  "deponent": "Arvind Rajan",
+  "designation": "Deputy Metropolitan Commissioner",
+  "organisation": "Mumbai Metropolitan Region Development Authority",
+  "address": "Bandra East, Mumbai, Maharashtra",
+  "verification_verb": "solemnly affirm",
+  "attestation_place": "Mumbai",
+  "attestation_date": "5 September 2026",
+  "reply_points": [
+    {
+      "point_number": 1,
+      "title": "Filing of Affidavit in Reply",
+      "details": [
+        "The deponent has perused a copy of the Writ Petition filed by Sunrise Housing Private Limited.",
+        "The deponent is filing this Affidavit in Reply on behalf of Respondent No. 2, Mumbai Metropolitan Region Development Authority, to oppose the contentions raised in the Writ Petition and the reliefs sought by the Petitioner."
+      ]
+    },
+    {
+      "point_number": 2,
+      "title": "General Denial",
+      "details": [
+        "Respondent No. 2 denies all statements, contentions and averments made in the Writ Petition except those specifically admitted in this Affidavit in Reply.",
+        "Nothing contained in the Writ Petition that has not been specifically dealt with or admitted is to be treated as an admission by Respondent No. 2."
+      ]
+    },
+    {
+      "point_number": 3,
+      "title": "Preliminary Position",
+      "details": [
+        "The Writ Petition is misconceived and devoid of merits.",
+        "The actions challenged by the Petitioner were taken in accordance with the applicable redevelopment procedure and within the authority available to Respondent No. 2."
+      ]
+    },
+    {
+      "point_number": 4,
+      "title": "Denial Regarding the Communication",
+      "details": [
+        "Respondent No. 2 denies that the impugned communication dated 15 July 2026 was issued without authority."
+      ]
+    },
+    {
+      "point_number": 5,
+      "title": "Authority for the Communication",
+      "details": [
+        "The communication dated 15 July 2026 was issued pursuant to the applicable redevelopment procedure and after consideration of the relevant records."
+      ]
+    },
+    {
+      "point_number": 6,
+      "title": "Document Relied Upon",
+      "details": [
+        "Respondent No. 2 relies upon the communication dated 15 July 2026.",
+        "A copy of that communication is to be annexed and marked as EXHIBIT-‘A’."
+      ]
+    }
+  ],
+  "prayer": "Respondent No. 2 prays that the Writ Petition be dismissed with costs.",
+  "advocate": {
+    "firm_name": "Rajan & Associates",
+    "acting_for": "Respondent No. 2"
+  }
+}
