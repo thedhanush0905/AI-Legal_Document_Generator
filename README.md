@@ -205,7 +205,7 @@ The evaluation system scores the generated document against a 100-point quality 
 
 ## Deployment & Demo Video
 
-- **Deployment**: [TO BE ADDED]
+- **Deployment**: https://ai-legaldocumentgenerator-jesxgb2aagm9sfzmnamtsk.streamlit.app
 - **Demo Video**: [TO BE ADDED]
 
 ---
